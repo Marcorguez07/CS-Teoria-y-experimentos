@@ -39,3 +39,11 @@ for item in tuple1:
         pass
 
 print(numrandom)
+
+# 4.) ANY()
+
+# Any devuelve True si alguna condición de dentro es true, le puedes añadir un bucle for dentro para iterar
+
+tuple2 = ("carlos","pedro")
+if any(item == "carlos" for item in tuple2) == True: #comprueba directamente si item == "carlos", no es necesario añadir "if".
+    print("true")
