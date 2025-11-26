@@ -69,3 +69,19 @@ for iterado in conjunto3:
 
 # la "a" se repite dos veces en la palabra "playa", el conjunto 3 solo es un grupo
 # de caracteres, por lo que la "a" solo aparecerá una vez.
+
+# -------------------------------------------------------
+# Obtención de datos en Diccionarios/conjuntos
+
+# Es posible comprobar si una key existe en un Diccionario, usando el metodo .get(), para que si no encuentra la key nos devuelva None
+# en vez de KeyError
+
+Dict = {hello: "123"}
+Dict.get(hola)
+
+#SI la clave no existe y no queremos que nos devuelva NONE, tambien podemos especificar un valor que nos devuelva.
+
+#En cuanto al tamaño de un diccionario/conjunto, el tamaño de un diccionario/conjunto se puede averiguar usando len().
+
+
+
